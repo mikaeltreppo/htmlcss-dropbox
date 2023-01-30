@@ -14,25 +14,26 @@
 /*debug*/
 
 .debug .jumbotron {
-    height: 500px;
+
 
     padding-top: 70px;
 
 }
 
 .debug .container-jumbo {
-    background-color: rgb(234, 151, 165);
+
     border: dotted 2px black;
     height: 100%;
 }
 
 .debug .first-impression {
-    height: 380px;
-    background-color: rgb(225, 93, 93);
+
+
     border: dashed 1px black;
 }
 
 h1 {
+    font-size: 55px;
     text-align: center;
 }
 
@@ -96,8 +97,8 @@ h1 {
     background-color: rgb(127, 220, 220);
 }
 
-.debug .bg-largo {
-    background-color: aqua;
+.jumbotron.bg-largo {
+    background-color: #B4D0E7;
 }
 
 .debug .faq {
@@ -139,8 +140,19 @@ h1 {
     color: white
 }
 
-;
+
 /*CSS*/
+
+.paragrafo {
+    width: 30%;
+    padding-top: 60px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.first-impression img {
+    width: 70%;
+}
 
 ul,
 li {
@@ -151,14 +163,15 @@ nav.navigation-sinistra.flex {
     padding: 10px 10px;
 }
 
-.navigation-sinistra img{
-   margin-right: 10px;
+.navigation-sinistra img {
+    margin-right: 10px;
     width: 100px;
     height: 20px;
-   
+
 }
+
 .navigation-sinistra .head {
-    padding:0px 10px 5px 10px;
+    padding: 0px 10px 5px 10px;
 }
 
 .navigation-destra .head {
@@ -209,5 +222,5 @@ header {
 li {
     display: inline-block;
     list-style: none;
- 
+
 }
