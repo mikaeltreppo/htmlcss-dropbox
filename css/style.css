@@ -1,20 +1,25 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    ;
 }
-.flex{
+
+.flex {
     display: flex;
 }
+
 /*debug*/
 
-.debug header{
-  border: dashed 2px black;
-  background-color: rgb(123, 210, 123);
-  
+.debug header {
+    border: dashed 2px black;
+    background-color: rgb(123, 210, 123);
+
 }
-.debug .navigation-sinistra, .debug .navigation-destra{
+
+.debug .navigation-sinistra,
+.debug .navigation-destra {
     height: 100%;
     width: 400px;
     background-color: orange;
@@ -22,47 +27,75 @@
     align-items: center;
 
 }
-.debug .head{
+
+.debug .head {
     background-color: red;
     height: 64px;
-    width :70px;
-}
-.head.link, .logo{
-    margin-right: 5px;
-}
-.debug .jumbotron{
-    height: 500px;
-    background-color:rgb(136, 136, 221);
-    padding-top: 70px;
-   
+    width: 70px;
 }
 
-.debug .container-jumbo{
+.head.link,
+.logo {
+    margin-right: 5px;
+}
+
+.debug .jumbotron {
+    height: 500px;
+    background-color: rgb(136, 136, 221);
+    padding-top: 70px;
+
+}
+
+.debug .container-jumbo {
     background-color: rgb(234, 151, 165);
     border: dotted 2px black;
     height: 100%;
 }
-.debug .first-impression{
+
+.debug .first-impression {
     height: 380px;
     background-color: rgb(225, 93, 93);
     border: dashed 1px black;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.debug .container-verticale{
-    width: 70%;
+.debug .centrato {
+    width: 60%;
     max-width: 1170px;
-    background-color: gainsboro;
     margin: auto;
-    height: 1300px;
     border: dotted 2px black;
+}
+
+.debug .sopra-colonne {
+    height: 200px;
+    background-color: rgb(194, 161, 224);
+}
+
+.debug .layout {
+    background-color: antiquewhite;
+    height: 800px;
+}
+
+.debug .colonna {
+    background-color: rgb(236, 203, 120);
+    border: dashed 1px black;
+}
+
+.debug .sotto-colonne {
+    height: 200px;
+    background-color: rgb(194, 161, 224);
+}
+
+.debug .trova-partner{
+    height: 350px;
+    background-color: rgb(76, 226, 76)
 }
 /*CSS*/
 
-header{
+header {
     justify-content: space-between;
     height: 70px;
     position: fixed;
@@ -70,14 +103,24 @@ header{
     margin-bottom: 70px;
 }
 
-.navigation-destra{
+.navigation-destra {
     justify-content: flex-end;
 }
-.jumbotron{
+
+.jumbotron {
     padding-top: 70px;
 }
-.container-jumbo{
+
+.container-jumbo {
     width: 70%;
     max-width: 1170px;
     margin: auto;
+}
+
+.colonna {
+    width: calc(100% / 3);
+}
+
+.layout.secondo{
+    flex-wrap: wrap;
 }
