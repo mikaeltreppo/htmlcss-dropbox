@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    ;
+    scrollbar-width: none;
 }
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*debug*/
@@ -41,7 +42,7 @@
 
 .debug .jumbotron {
     height: 500px;
-    background-color: rgb(136, 136, 221);
+ 
     padding-top: 70px;
 
 }
@@ -89,9 +90,69 @@ h1 {
     background-color: rgb(194, 161, 224);
 }
 
-.debug .trova-partner{
-    height: 350px;
+.debug .trova-partner {
+    height: 400px;
     background-color: rgb(76, 226, 76)
+}
+
+.debug .drop-bussines {
+    background-color: rgb(187, 135, 234);
+    height: 300px;
+}
+
+.container-cubi {
+    background-color: greenyellow;
+    width: 100vw;
+    height: 400px;
+}
+
+.debug .cubo {
+    border: dotted 1px black;
+    height: 100%;
+}
+
+.debug .cubetti {
+    background-color: rgba(110, 20, 17, 0.5);
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    border: dashed 1px black;
+}
+.debug .prova-gratuita{
+    height: 300px;
+    background-color: rgb(127, 220, 220);
+}
+.debug .bg-largo{
+    background-color: aqua;
+}
+
+.debug .faq{
+    background-color: rgb(182, 145, 217);
+    height: 500px;
+    flex-direction: column;
+}
+
+.debug .domanda{
+border: 2px dashed black;
+width: 100%;
+height: 150px;
+}
+.debug footer{
+    background-color: black;
+}
+.debug .pie-pagina{
+    align-items: center;
+background-color: aqua;
+}
+
+.debug .info-finali{
+    width: calc(100% / 5);
+    padding: 30px 10px;
+    border: dashed 1px black;
+}
+.debug .lingua{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
 }
 /*CSS*/
 
@@ -121,6 +182,21 @@ header {
     width: calc(100% / 3);
 }
 
-.layout.secondo{
+.layout.secondo {
     flex-wrap: wrap;
+}
+
+.cubo {
+    width: calc(100% / 3);
+}
+
+.cubo.mezzo {
+    overflow: auto;
+}
+
+
+li{
+    list-style: none;
+    color: white;
+
 }
