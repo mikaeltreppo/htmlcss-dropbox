@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;;
+}
+.flex{
+    display: flex;
+}
+/*debug*/
+
+.debug header{
+  border: dashed 2px black;
+}
+.debug .navigation-sinistra, .debug .navigation-destra{
+    height: 100%;
+    width: 400px;
+    background-color: orange;
+    padding: 3px;
+    align-items: center;
+
+}
+.debug .head{
+    background-color: red;
+    height: 64px;
+    width :70px;
+}
+.head.link, .logo{
+    margin-right: 5px;
+}
+/*CSS*/
+
+header{
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.navigation-destra{
+    justify-content: flex-end;
+}
