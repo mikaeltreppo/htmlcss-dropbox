@@ -14,9 +14,6 @@
 
 
 
-.sotto-colonne {
-    border: 1px solid gray;
-}
 
 
 .debug .drop-bussines {
@@ -89,9 +86,19 @@
 .bold {
     font-weight: bold;
 }
-.p90{
-    padding: 90px 0px ;
+
+.p30 {
+    padding: 30px 0px;
 }
+
+.p15 {
+    padding: 15px 0px;
+}
+
+.p90 {
+    padding: 90px 0px;
+}
+
 .p10-40 {
     padding: 10px 40px;
 }
@@ -137,8 +144,9 @@ img {
     padding: 5px;
     color: white
 }
-.bottone.bianco{
-    background-color: white ;
+
+.bottone.bianco {
+    background-color: white;
     color: black;
     border: 1px solid gray;
 }
@@ -151,12 +159,15 @@ img {
 .w30 {
     width: 30%;
 }
-.w40{
+
+.w40 {
     width: 40%;
 }
-.w60{
+
+.w60 {
     width: 60%;
 }
+
 .w70 {
     width: 70%;
 }
@@ -166,6 +177,10 @@ img {
 }
 
 /*CSS*/
+.colonna.seconda-parte {
+    width: calc(100% / 3);
+    padding: 0px 20px 40px 0px;
+}
 
 .sotto-colonne.centrato {
     margin-top: 50px;
@@ -192,7 +207,7 @@ img {
     padding: auto 15px;
 }
 
-.colonna {
+.colonne {
     border: 1px solid gray;
 }
 
