@@ -3,38 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    scrollbar-width: none;
-}
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /*debug*/
-
-.debug .jumbotron {
-
-
-    padding-top: 70px;
-
+.arrow{
+    font-size: 35px;
+    padding-top: 10px;
 }
-
-.debug .container-jumbo {
-
-    border: dotted 2px black;
-    height: 100%;
-}
-
-.debug .first-impression {
-
-
-    border: dashed 1px black;
-}
-
 h1 {
-    font-size: 55px;
-    text-align: center;
+    font-size: 55px; 
 }
 
 .debug .centrato {
@@ -77,13 +54,8 @@ h1 {
 .container-cubi {
     background-color: greenyellow;
     width: 100vw;
-    height: 400px;
 }
 
-.debug .cubo {
-    border: dotted 1px black;
-    height: 100%;
-}
 
 .debug .cubetti {
     background-color: rgba(110, 20, 17, 0.5);
@@ -103,7 +75,6 @@ h1 {
 
 .debug .faq {
     background-color: rgb(182, 145, 217);
-    height: 500px;
     flex-direction: column;
 }
 
@@ -134,25 +105,45 @@ h1 {
     width: 100px;
 }
 
+
+/*..............................................generale*/
+.lineheigth{
+    line-height: 1.8em;
+}
+.font13{
+    font-size: 13px;
+}
+img {
+    width: 100%;
+}
+
 .bottone {
     background-color: #0061FF;
     padding: 5px;
     color: white
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/*CSS*/
-
-.paragrafo {
+.w30 {
     width: 30%;
-    padding-top: 60px;
-    font-size: 14px;
+}
+
+.w70 {
+    width: 70%;
+}
+.inline-block{
     display: inline-block;
 }
 
-.first-impression img {
-    width: 70%;
+/*CSS*/
+.p40 {
+    padding: 40px 0px;
 }
+
 
 ul,
 li {
@@ -211,7 +202,8 @@ header {
 }
 
 .cubo {
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .cubo.mezzo {
@@ -219,7 +211,7 @@ header {
 }
 
 
-li {
+header li {
     display: inline-block;
     list-style: none;
 
