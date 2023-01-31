@@ -37,15 +37,8 @@ h1 {
 }
 
 
-.debug .layout {
-    background-color: antiquewhite;
-    height: 800px;
-}
 
-.debug .colonna {
-    background-color: rgb(236, 203, 120);
-    border: dashed 1px black;
-}
+
 
 .debug .sotto-colonne {
     height: 200px;
@@ -117,7 +110,29 @@ h1 {
 }
 
 
-/*..............................................generale*/
+/*.................................generale*/
+.indent{
+    text-indent: -8px;
+}
+.grigio{
+    color: gray;
+}
+
+.p10-40{
+    padding:10px 40px ;
+}
+.p20{
+    padding: 20px;
+}
+.p10{
+    padding: 10px;
+}
+.txt-alg{
+    text-align: center;
+}
+.s-b{
+    justify-content: space-between;
+}
 .lineheigth{
     line-height: 1.8em;
 }
@@ -151,7 +166,30 @@ img {
 }
 
 /*CSS*/
-.soptra-colonne h2 {
+
+
+.parte-tre-col i{
+    color: #0061FF;
+    font-size: 16px;
+}
+.bordino{
+    border-bottom: 1px solid rgb(183, 182, 182);
+    padding-bottom: 40px;
+}
+.btn-col{
+    width: 90%;
+    margin: 30px auto;
+    padding: auto 15px;
+
+}
+.colonna {
+    border: 2px solid gray;
+   
+}
+.intestazione{
+    border-bottom: 2px solid gray;
+}
+.sopra-colonne h2 {
     font-size: 37px;
     font-weight: 600;
 }
@@ -211,9 +249,7 @@ header {
     margin: auto;
 }
 
-.colonna {
-    width: calc(100% / 3);
-}
+
 
 .layout.secondo {
     flex-wrap: wrap;
