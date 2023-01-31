@@ -16,15 +16,6 @@
 
 
 
-.debug .drop-bussines {
-    background-color: rgb(187, 135, 234);
-    height: 300px;
-}
-
-.container-cubi {
-    background-color: greenyellow;
-    width: 100vw;
-}
 
 
 .debug .cubetti {
@@ -327,4 +318,9 @@ h1 {
     width: 60%;
     max-width: 1170px;
     margin: auto;
+}
+
+
+.container-cubi {
+    width: 100vw;
 }
