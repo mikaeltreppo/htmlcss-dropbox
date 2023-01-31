@@ -4,6 +4,22 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.check{
+ width: 17px;
+ height: 17px;
+ border-radius: 50%;
+ background-color: #0061FF;
+ padding:3px;
+}
+.check.white{background-color: white;
+border: 2px solid gray;}
+.check-in{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: white;
+
+}
 
 /*debug*/
 .arrow{
@@ -18,13 +34,8 @@ h1 {
     width: 60%;
     max-width: 1170px;
     margin: auto;
-    border: dotted 2px black;
 }
 
-.debug .sopra-colonne {
-    height: 200px;
-    background-color: rgb(194, 161, 224);
-}
 
 .debug .layout {
     background-color: antiquewhite;
@@ -140,6 +151,13 @@ img {
 }
 
 /*CSS*/
+.soptra-colonne h2 {
+    font-size: 37px;
+    font-weight: 600;
+}
+.fatturazione{
+    margin-right: 40px;
+}
 .p40 {
     padding: 40px 0px;
 }
