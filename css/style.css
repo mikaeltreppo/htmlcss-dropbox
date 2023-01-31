@@ -41,8 +41,7 @@ footer {
     background-color: black;
     color: white;
 }
-
-.debug .info-finali {
+.info-finali {
     width: calc(100% / 5);
     padding: 20px 0px;
     
@@ -50,7 +49,7 @@ footer {
 
 .debug .lingua {
     background-color: aquamarine;
-    height: 100px;
+
     width: 100px;
 }
 
@@ -299,9 +298,9 @@ img {
     padding: 40px 0px;
 }
 
-ul,
-li {
-    display: inline-block;
+.info-finali li, .info-finali h4{
+    list-style: none;
+    margin-bottom: 10px;
 }
 
 nav.navigation-sinistra.flex {
@@ -393,13 +392,20 @@ h1 {
     background-color: white;
 
 }
-
+.s-a{
+    justify-content: space-around;
+}
 .centrato {
     width: 60%;
     max-width: 1170px;
     margin: auto;
 }
 
+.centrato-largo {
+    width: 70%;
+    max-width: 1170px;
+    margin: auto;
+}
 
 .container-cubi {
     width: 100vw;
