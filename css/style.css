@@ -48,8 +48,8 @@ footer {
 }
 
 .debug .lingua {
-    background-color: aquamarine;
-
+   border-top: 1px solid gray;
+    padding:40px 0px;
     width: 100px;
 }
 
@@ -139,6 +139,7 @@ span.p20.bottone.bianco {
 
 .font13 {
     font-size: 13px;
+    list-style: none;
 }
 
 img {
@@ -265,7 +266,9 @@ img {
     color: #0061FF;
     font-size: 16px;
 }
-
+li{
+    list-style: none;
+}
 .bordino {
     border-bottom: 1px solid rgb(183, 182, 182);
     padding-bottom: 40px;
