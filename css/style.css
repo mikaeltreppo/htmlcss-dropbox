@@ -25,6 +25,7 @@ a.underline {
 }
 
 a {
+    display: flex;
     text-decoration: none;
     color: black;
 }
@@ -323,10 +324,12 @@ li {
 }
 
 nav.navigation-sinistra.flex {
-    padding: 10px 10px;
+    padding: 0px 10px;
 }
 
 .navigation-sinistra img {
+
+    align-self: center;
     margin-right: 10px;
     width: 100px;
     height: 20px;
@@ -334,11 +337,11 @@ nav.navigation-sinistra.flex {
 }
 
 .navigation-sinistra .head {
-    padding: 0px 10px 5px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .navigation-destra .head {
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 header {
@@ -453,8 +456,14 @@ h2.w50.p20 {
     border-top: 1px solid gray;
 }
 
+li.head:hover {
+    border-bottom: 2px solid black;
+
+}
+
 li.head {
-    line-height: 100%;
+    border: 2px solid transparent;
+    line-height: 200%;
 }
 
 .faq.centrato.flex {
