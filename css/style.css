@@ -18,9 +18,17 @@ footer {
     flex-direction: column;
 
 }
+a.underline{
+    text-decoration: underline;
+    color: #0D2481;
+}
 a{
     text-decoration: none;
     color: black;
+}
+
+.c-white{
+    color: white;
 }
 .pie-pagina {
     align-items: center;
@@ -147,9 +155,16 @@ img {
     color: black;
 
 }
-
+.bottone:hover{
+    opacity: 0.5;
+}
 .bottone.border {
     border: 1px solid gray;
+}
+
+
+.filtered{
+    filter: invert(100%);
 }
 
 .flex {
@@ -243,6 +258,7 @@ img {
 
 .sotto-colonne.centrato {
     margin-top: 50px;
+    border: 1px solid gray;
 }
 
 .arrow {
@@ -436,3 +452,4 @@ h2.w50.p20 {
 .p-rigth10 {
     padding-right: 10px;
 }
+
