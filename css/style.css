@@ -26,7 +26,9 @@ a{
     text-decoration: none;
     color: black;
 }
-
+.cubetti.one{
+    border: 15px solid rgb(197, 230, 193);
+}
 .c-white{
     color: white;
 }
@@ -452,4 +454,16 @@ h2.w50.p20 {
 .p-rigth10 {
     padding-right: 10px;
 }
-
+.domanda:hover .drop-down-content{
+    display: block;
+}
+.domanda:hover .question, .domanda:hover .fa-chevron-down{
+    display: none;
+}
+.domanda{
+    position: relative;
+}
+.drop-down-content{
+    position: absolute;
+    display: none;
+}
