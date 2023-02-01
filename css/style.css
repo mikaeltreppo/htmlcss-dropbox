@@ -5,26 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
-/*debug*/
-
-
-
-
-
-
-
-
-
-
-
-
 .prova-gratuita {
 
     background-color: #B4D0E7;
 }
-
 
 footer {
     background-color: black;
@@ -34,25 +18,27 @@ footer {
     flex-direction: column;
 
 }
-
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .pie-pagina {
     align-items: center;
     background-color: black;
     color: white;
 }
+
 .info-finali {
     width: calc(100% / 5);
     padding: 20px 0px;
-    
+
 }
 
 .debug .lingua {
-   border-top: 1px solid gray;
-    padding:40px 0px;
+    border-top: 1px solid gray;
+    padding: 40px 0px;
     width: 100px;
 }
-
 
 /*.................................generale*/
 span.p20.bottone.bianco {
@@ -95,6 +81,10 @@ span.p20.bottone.bianco {
 
 .p90 {
     padding: 90px 0px;
+}
+
+.p90-40 {
+    padding: 90px 0px 40px 0px;
 }
 
 .p50-00 {
@@ -160,7 +150,6 @@ img {
 
 .bottone.border {
     border: 1px solid gray;
-
 }
 
 .flex {
@@ -208,7 +197,6 @@ img {
 .cubetti {
     width: calc(100% / 2);
     height: calc(100% / 2);
-
 }
 
 .cubo.mezzo {
@@ -266,9 +254,11 @@ img {
     color: #0061FF;
     font-size: 16px;
 }
-li{
+
+li {
     list-style: none;
 }
+
 .bordino {
     border-bottom: 1px solid rgb(183, 182, 182);
     padding-bottom: 40px;
@@ -277,7 +267,7 @@ li{
 .btn-col {
     width: 90%;
     margin: 30px auto;
-    padding: auto 15px;
+    padding: 8px;
 }
 
 .colonne {
@@ -301,7 +291,8 @@ li{
     padding: 40px 0px;
 }
 
-.info-finali li, .info-finali h4{
+.info-finali li,
+.info-finali h4 {
     list-style: none;
     margin-bottom: 10px;
 }
@@ -326,6 +317,7 @@ nav.navigation-sinistra.flex {
 }
 
 header {
+    border-bottom: 1px gray solid;
     font-size: 12px;
     background-color: white;
     justify-content: space-between;
@@ -333,6 +325,7 @@ header {
     position: fixed;
     width: 100%;
     margin-bottom: 70px;
+    z-index: 9999;
 }
 
 .jumbotron.bg-largo {
@@ -345,9 +338,12 @@ header {
 
 .jumbotron {
     padding-top: 70px;
+
 }
 
 .container-jumbo {
+    position: relative;
+    bottom: -33px;
     width: 70%;
     max-width: 1170px;
     margin: auto;
@@ -395,9 +391,11 @@ h1 {
     background-color: white;
 
 }
-.s-a{
+
+.s-a {
     justify-content: space-around;
 }
+
 .centrato {
     width: 60%;
     max-width: 1170px;
@@ -434,6 +432,7 @@ h2.w50.p20 {
     padding-bottom: 100px;
     padding-top: 50px;
 }
-.p-rigth10{
-    padding-right:10px ;
+
+.p-rigth10 {
+    padding-right: 10px;
 }
