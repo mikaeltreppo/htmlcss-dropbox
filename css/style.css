@@ -18,20 +18,25 @@ footer {
     flex-direction: column;
 
 }
-a.underline{
+
+a.underline {
     text-decoration: underline;
     color: #0D2481;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-.cubetti.one{
+
+.cubetti.one {
     border: 15px solid rgb(197, 230, 193);
 }
-.c-white{
+
+.c-white {
     color: white;
 }
+
 .pie-pagina {
     align-items: center;
     background-color: black;
@@ -157,15 +162,17 @@ img {
     color: black;
 
 }
-.bottone:hover{
+
+.bottone:hover {
     opacity: 0.5;
 }
+
 .bottone.border {
     border: 1px solid gray;
 }
 
 
-.filtered{
+.filtered {
     filter: invert(100%);
 }
 
@@ -446,6 +453,10 @@ h2.w50.p20 {
     border-top: 1px solid gray;
 }
 
+li.head {
+    line-height: 100%;
+}
+
 .faq.centrato.flex {
     padding-bottom: 100px;
     padding-top: 50px;
@@ -454,16 +465,21 @@ h2.w50.p20 {
 .p-rigth10 {
     padding-right: 10px;
 }
-.domanda:hover .drop-down-content{
+
+.domanda:hover .drop-down-content {
     display: block;
 }
-.domanda:hover .question, .domanda:hover .fa-chevron-down{
+
+.domanda:hover .question,
+.domanda:hover .fa-chevron-down {
     display: none;
 }
-.domanda{
+
+.domanda {
     position: relative;
 }
-.drop-down-content{
+
+.drop-down-content {
     position: absolute;
     display: none;
 }
